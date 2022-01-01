@@ -2,6 +2,8 @@
 
 A 2D game made with the SFML library with tiles.
 
+[](2D_Game_01-22.png)
+
 ***
 
 ## Prerequisites
@@ -19,7 +21,6 @@ A 2D game made with the SFML library with tiles.
 or
 
 ``$ g++ src/main.cpp -std=c++2a -lsfml-graphics -lsfml-window -lsfml-system -o 2D_Game``
-
 ``$ ./2D_Game``
 
 ***
@@ -28,4 +29,5 @@ or
 
 - Arrow keys : Move character
 - Left click : Sword attack
+- Escape : Close game
 - Space Bar : Debug mode
