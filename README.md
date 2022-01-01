@@ -2,7 +2,7 @@
 
 A 2D game made with the SFML library with tiles.
 
-![01/01/2022](2D_Game_01-22.png)
+<img src="2D_Game_01-22.png" alt="01/01/2022" width="600"/>
 
 ***
 
