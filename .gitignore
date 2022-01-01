@@ -1,3 +1,8 @@
+# Files Without Extension
+*
+!*/
+!*.*
+
 # Prerequisites
 *.d
 
@@ -32,8 +37,8 @@
 *.app
 
 # Building directories
-**/bin
-**/build
+/bin
+/build
 
 # VSCode stuff
 *.code-workspace
@@ -41,5 +46,3 @@
 
 # Utilities
 /TileMap_Editor
-
-.idea
