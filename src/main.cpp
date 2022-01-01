@@ -4,13 +4,20 @@
 int main()
 {
     sf::RenderWindow window;
+
     Map mapInstance;
+
     Input input;
+
     Player player("res/hero_sheet.png");
+
     Portal portal1(sf::Vector2f(17, 0), 2, sf::Vector2f(17, 17));
-    Portal portal2(sf::Vector2f(17, 17.5), 1, sf::Vector2f(17, 0));
+    Portal portal2(sf::Vector2f(17, 17.5), 1, sf::Vector2f(17, 0.5));
+
     std::vector<Slime> slimes;
+
     Arrow arrow("res/arrow.png");
+
     sf::RectangleShape rects[COL_COUNT * ROW_COUNT];
     bool debug {false};
 
